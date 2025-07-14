@@ -4,7 +4,6 @@ import path from "node:path";
 
 export default defineConfig({
   plugins: [react()],
-  // input ko‘rsatish shart emas, lekin xohlasa 👇
   build: {
     rollupOptions: {
       input: path.resolve(__dirname, "src/renderer.ts"),

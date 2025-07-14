@@ -1,5 +1,10 @@
 module.exports = {
-    content: ['./src/**/*.{ts,tsx}'],
-    theme: {extend: {}},
-    plugins: [require('tailwind-scrollbar-hide')],
+  content: [
+    "./index.html",
+    "./src/**/*.{ts,tsx,js,jsx}", // .tsx lar ham kiritilgan
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
 };
